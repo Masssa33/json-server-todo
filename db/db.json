@@ -1,0 +1,20 @@
+{
+  "todos": [
+    {
+      "text": "Learn Dog",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "text": "Create JSON Server"
+    },
+    {
+      "text": "game",
+      "id": "3da759f7-af5f-481e-b823-50b2d5c113cd"
+    },
+    {
+      "id": "c01b0e0d-ceeb-48f3-a419-f0d6d8b4e5a6",
+      "text": "追加するタスク"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  api:
+    build: .
+    volumes:
+      - ./db:/app/db:delegated
+      - ./public:/app/public:delegated
+    ports:
+      - "3001:3000"
+    networks:
+      - json-server-todo_app-network
+      # - app-network
+    restart: unless-stopped
+
+networks:
+  json-server-todo_app-network:
+    external: true
